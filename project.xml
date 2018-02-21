@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Ske" package="com.sample.ske" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Ske" />
+	<icon path="Assets/icon.png" size="100" />
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+
+	<assets path="Assets" rename="assets" />
+
+	<window width="360" height="360" background="#101030" />
+	<!--window fps="15" /-->
+
+	<window fullscreen="false" resizable="true" borderless="false" vsync="true" />
+
+	<window hardware="true" allow-shaders="false" require-shaders="false" depth-buffer="false" stencil-buffer="false" />
+
+</project>
